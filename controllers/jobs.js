@@ -3,17 +3,17 @@ const getAllJobs = async (req, res) => {
 }
 
 const getJob = async (req, res) => {
-    res.send('Login User Controller');
+    res.send('Get Job');
 }
 
 const createJob = async (req, res) => {
-    res.send('Login User Controller');
+    res.send('Create Josb');
 }
 const updateJob = async (req, res) => {
-    res.send('Login User Controller');
+    res.send('Update Job');
 }
 const deleteJob = async (req, res) => {
-    res.send('Login User Controller');
+    res.send('Delete Job');
 }
 
 module.exports = {
