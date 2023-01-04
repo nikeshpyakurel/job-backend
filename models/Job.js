@@ -20,8 +20,11 @@ const JobSchema = new mongoose.Schema({
         type: mongoose.Types.ObjectId,
         ref: 'User',
         requried: [true, 'Please Provide an User']
-    }
-}, { timestamps: true })
+    },
+},
+    { timestamps: true }
+
+)
 
 
 module.exports = mongoose.model('Job', JobSchema)
